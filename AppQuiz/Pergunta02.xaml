@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuiz.Pergunta02">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame BackgroundColor="Blue" Padding="25" HorizontalOptions="FillAndExpand">
+                <Label Text="Pergunta 01" TextColor="White" HorizontalTextAlignment="Center"/>
+            </Frame>
+
+            <Label Text="Qual foi o primeiro estado do Brasil?" FontSize="25"/>
+
+            <RadioButton x:Name="rdbopcao1" Content="Rio de Janeiro"/>
+            <RadioButton x:Name="rdbopcao2" Content="São Paulo"/>
+            <RadioButton x:Name="rdbopcao3" Content="Bahia"/>
+
+            <Button x:Name="btnProximo" Text="Próxima Pergunta" Clicked="btnProximo_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

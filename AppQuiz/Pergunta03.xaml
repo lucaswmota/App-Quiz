@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuiz.Pergunta03">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame BackgroundColor="Blue" Padding="25" HorizontalOptions="FillAndExpand">
+                <Label Text="Pergunta 01" TextColor="White" HorizontalTextAlignment="Center"/>
+            </Frame>
+
+            <Label Text="Qual o nome da Etec do Centro de Jau?" FontSize="25"/>
+
+            <RadioButton x:Name="rdbopcao1" Content="Santo Agostinho"/>
+            <RadioButton x:Name="rdbopcao2" Content="Joaquim Ferreira do Amaral"/>
+            <RadioButton x:Name="rdbopcao3" Content="Angelo Trevisan"/>
+
+            <Button x:Name="btnProximo" Text="Próxima Pergunta" Clicked="btnProximo_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

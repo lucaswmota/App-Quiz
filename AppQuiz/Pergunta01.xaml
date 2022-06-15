@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuiz.Pergunta01">
+    <ContentPage.Content>
+        <StackLayout>
+
+            <Frame BackgroundColor="Blue" Padding="25" HorizontalOptions="FillAndExpand">
+                <Label Text="Pergunta 01" TextColor="White" HorizontalTextAlignment="Center"/>
+            </Frame>
+
+            <Label Text="Quem Descobriu o Brasil?" FontSize="25"/>
+
+            <RadioButton x:Name="rdbopcao1" Content="Pedro Alvares Cabral"/>
+            <RadioButton x:Name="rdbopcao2" Content="Dom Pedro I"/>
+            <RadioButton x:Name="rdbopcao3" Content="Princesa Isabel"/>
+
+            <Button x:Name="btnProximo" Text="Próxima Pergunta" Clicked="btnProximo_Clicked"/>
+
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

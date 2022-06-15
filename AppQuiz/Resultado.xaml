@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuiz.Resultado">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Frame BackgroundColor="Blue" Padding="25" HorizontalOptions="FillAndExpand">
+                <Label Text="QUIZ" TextColor="White" HorizontalTextAlignment="Center"/>
+                </Frame>
+                
+                <Label Text="RESULTADO" HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblNome" HorizontalTextAlignment="Center"/>
+
+            <Label x:Name="lblResultado" HorizontalTextAlignment="Center" FontSize="36"/>
+
+                <Button x:Name="btnFinalizar" Text="Finalizar" Clicked="btnFinalizar_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

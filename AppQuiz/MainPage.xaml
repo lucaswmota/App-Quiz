@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppQuiz.MainPage">
+
+    <StackLayout>
+
+        <Frame BackgroundColor="Blue" Padding="25" HorizontalOptions="FillAndExpand">
+            <Label Text="Quiz" TextColor="White" HorizontalTextAlignment="Center"/>
+        </Frame>
+
+        <Entry x:Name="edtNome" Placeholder="Seu Nome"/>
+
+        <Button x:Name="btnIniciar" Text="Iniciar Quiz" Clicked="btnIniciar_Clicked"/>
+        <Button x:Name="btnFinalizar" Text="Finalizar" Clicked="btnFinalizar_Clicked"/>
+
+    </StackLayout>
+
+</ContentPage>
